@@ -3,7 +3,7 @@
 Site de portfólio pessoal desenvolvido para apresentar minha trajetória como desenvolvedor fullstack, com foco em backend Java/Spring Boot, e reunir meus principais projetos e formas de contato.
 
 ## Acesse
-`https://mibson.dev/`
+`https://mibson.dev`
 
 ## Funcionalidades
 
