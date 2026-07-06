@@ -2,12 +2,10 @@
 
 Site de portfólio pessoal desenvolvido para apresentar minha trajetória como desenvolvedor fullstack, com foco em backend Java/Spring Boot, e reunir meus principais projetos e formas de contato.
 
-## 🔗 Acesse
+## Acesse
+`https://mibson.dev/`
 
-<!-- Substitua pelo link do Vercel após o deploy -->
-`[link será adicionado após o deploy]`
-
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Tema claro/escuro** com alternância e persistência da preferência via `localStorage`
 - **Design responsivo**, adaptado para desktop e mobile
@@ -15,13 +13,13 @@ Site de portfólio pessoal desenvolvido para apresentar minha trajetória como d
 - **Navegação suave** entre as seções
 - **Currículo para download** em PDF
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - HTML5
 - CSS3 (variáveis CSS para theming, Flexbox e Grid)
 - JavaScript (vanilla)
 
-## 📂 Estrutura do projeto
+## Estrutura do projeto
 
 ```
 portfolio/
@@ -36,11 +34,11 @@ portfolio/
     └── curriculo.pdf   # Currículo para download
 ```
 
-## 🚀 Como executar localmente
+## Como executar localmente
 
 Por ser um site estático, basta abrir o `index.html` no navegador. Para melhor experiência (evitar problemas com caminhos de arquivos), recomenda-se usar um servidor local, como a extensão **Live Server** do VS Code.
 
-## 📬 Contato
+## Contato
 
 - **E-mail:** mibinhor@gmail.com
 - **LinkedIn:** [mibson-ferreira](https://www.linkedin.com/in/mibson-ferreira)
