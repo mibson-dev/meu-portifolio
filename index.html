@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="pt-br" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mibson Ferreira — Desenvolvedor Fullstack Java</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <div class="logo">mibson<span>.dev</span></div>
+        <nav>
+          <a href="#sobre">Sobre</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#contato">Contato</a>
+          <button id="theme-toggle" title="Alternar tema">🌙</button>
+        </nav>
+      </div>
+    </header>
+
+    <section id="hero">
+      <div class="hero-inner">
+        <div>
+          <div class="hero-tag">Disponível para freela e oportunidades</div>
+          <h1 class="hero-nome">Mibson Ferreira<span class="cursor"></span></h1>
+          <p class="hero-sub">
+            Desenvolvedor Fullstack com foco em backend Java/Spring Boot. Crio
+            sistemas do zero até o deploy em produção.
+          </p>
+          <div class="hero-btns">
+            <a href="#projetos" class="btn-primary">Ver projetos →</a>
+            <a href="#contato" class="btn-secondary">Entre em contato</a>
+            <a
+              href="archive/MIBSON_CURRICULO.pdf"
+              download
+              class="btn-secondary"
+              >📄 Baixar CV</a
+            >
+          </div>
+        </div>
+        <img
+          src="img/foto_curriculo.jpeg"
+          alt="Foto de Mibson Ferreira"
+          class="hero-foto"
+          onerror="
+            this.outerHTML =
+              '<div class=&quot;hero-foto-placeholder&quot;>👨‍💻</div>'
+          "
+        />
+      </div>
+    </section>
+
+    <section id="sobre">
+      <div class="container">
+        <div class="sobre-grid">
+          <div class="sobre-texto">
+            <div class="section-label">Sobre mim</div>
+            <h2 class="section-title">Quem sou</h2>
+            <p>
+              Sou desenvolvedor fullstack da Bahia, cursando Análise e
+              Desenvolvimento de Sistemas. Tenho foco em backend Java com Spring
+              Boot, mas construo o ciclo completo: da API ao frontend, do
+              desenvolvimento ao deploy em produção.
+            </p>
+            <p>
+              Trabalho com arquitetura em camadas, APIs REST com autenticação
+              JWT, controle de acesso por perfis, integração com PostgreSQL e
+              boas práticas como tratamento de exceções e validações robustas.
+            </p>
+            <p>
+              Já entreguei projetos reais com regras de negócio complexas,
+              hospedados em produção e acessíveis publicamente.
+            </p>
+          </div>
+          <div>
+            <div class="stack-titulo">Stack principal</div>
+            <div class="stack-grid">
+              <div class="stack-item">
+                <span class="stack-dot"></span>Java 21
+              </div>
+              <div class="stack-item">
+                <span class="stack-dot"></span>Spring Boot
+              </div>
+              <div class="stack-item">
+                <span class="stack-dot"></span>Spring Security
+              </div>
+              <div class="stack-item"><span class="stack-dot"></span>JWT</div>
+              <div class="stack-item">
+                <span class="stack-dot"></span>Spring Data JPA
+              </div>
+              <div class="stack-item">
+                <span class="stack-dot"></span>PostgreSQL
+              </div>
+              <div class="stack-item">
+                <span class="stack-dot"></span>JavaScript
+              </div>
+              <div class="stack-item">
+                <span class="stack-dot"></span>HTML & CSS
+              </div>
+              <div class="stack-item">
+                <span class="stack-dot"></span>Docker
+              </div>
+              <div class="stack-item">
+                <span class="stack-dot"></span>Git & GitHub
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos">
+      <div class="container">
+        <div class="section-label">Portfólio</div>
+        <h2 class="section-title">Projetos</h2>
+
+        <div class="projetos-grid">
+          <div class="projeto-card">
+            <img
+              src="img/projetos/reservetech-capa.png"
+              alt="Tela inicial do Reservetech"
+              class="projeto-img"
+              style="object-fit: cover; object-position: top"
+            />
+            <div class="projeto-corpo">
+              <div class="projeto-nome">ReserveTech</div>
+              <p class="projeto-desc">
+                Sistema web de reservas de equipamentos e salas com dois perfis
+                de usuário (Professor e TI). Permite reservar múltiplos
+                equipamentos numa única operação, com validação de
+                disponibilidade por estoque e horário em tempo real.
+              </p>
+              <div class="projeto-tags">
+                <span class="tag">Java</span>
+                <span class="tag">Spring Boot</span>
+                <span class="tag">Spring Security</span>
+                <span class="tag">JWT</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Docker</span>
+              </div>
+              <div class="projeto-links">
+                <a
+                  href="https://youtu.be/iJOsUbT0Mz4"
+                  target="_blank"
+                  class="link-btn primary"
+                  >Demonstração</a
+                >
+                <a
+                  href="https://github.com/mibson-dev/reservetech-backend"
+                  target="_blank"
+                  class="link-btn"
+                  >GitHub Backend</a
+                >
+                <a
+                  href="https://github.com/mibson-dev/reservetech-frontend"
+                  target="_blank"
+                  class="link-btn"
+                  >GitHub Frontend</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- OrderEasy -->
+          <div class="projeto-card">
+            <img
+              src="img/projetos/ordereasy-cardapio.png"
+              alt="Cardápio do OrderEasy"
+              class="projeto-img"
+              style="object-fit: cover; object-position: top"
+            />
+            <div class="projeto-corpo">
+              <div class="projeto-nome">OrderEasy</div>
+              <p class="projeto-desc">
+                Sistema de encomendas online para estabelecimentos alimentícios.
+                O cliente acessa o cardápio, monta seu pedido e escolhe a data
+                de retirada. O admin gerencia produtos (com upload de imagem via
+                Cloudinary) e pedidos em tempo real.
+              </p>
+              <div class="projeto-tags">
+                <span class="tag">Java</span>
+                <span class="tag">Spring Boot</span>
+                <span class="tag">JWT</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Cloudinary</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Docker</span>
+              </div>
+              <div class="projeto-links">
+                <a
+                  href="https://youtu.be/oFRqrJbhnHI"
+                  target="_blank"
+                  class="link-btn primary"
+                  >Demonstração</a
+                >
+                <a
+                  href="https://github.com/mibson-dev/ordereasy-backend"
+                  target="_blank"
+                  class="link-btn"
+                  >GitHub Backend</a
+                >
+                <a
+                  href="https://github.com/mibson-dev/ordereasy-frontend"
+                  target="_blank"
+                  class="link-btn"
+                  >GitHub Frontend</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="container">
+        <div class="section-label">Vamos conversar</div>
+        <h2 class="section-title">Contato</h2>
+        <div class="contato-grid">
+          <a
+            href="https://wa.me/5575983199084"
+            target="_blank"
+            class="contato-card"
+          >
+            <span class="contato-icon-emoji">📱</span>
+            <div class="contato-info">
+              <label>WhatsApp</label>
+              <span>(75) 98319-9084</span>
+            </div>
+          </a>
+          <a href="mailto:mibinhor@gmail.com" class="contato-card">
+            <span class="contato-icon"></span>
+            <div class="contato-info">
+              <label>E-mail</label>
+              <span>mibinhor@gmail.com</span>
+            </div>
+          </a>
+          <a
+            href="https://github.com/mibson-dev"
+            target="_blank"
+            class="contato-card"
+          >
+            <span class="contato-icon"></span>
+            <div class="contato-info">
+              <label>GitHub</label>
+              <span>github.com/mibson-dev</span>
+            </div>
+          </a>
+          <a
+            href="https://linkedin.com/in/mibson-ferreira"
+            target="_blank"
+            class="contato-card"
+          >
+            <span class="contato-icon"></span>
+            <div class="contato-info">
+              <label>LinkedIn</label>
+              <span>mibson-ferreira</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>Feito com ☕ por Mibson Ferreira &nbsp;·&nbsp; 2026</p>
+    </footer>
+
+    <script>
+      const toggle = document.getElementById("theme-toggle");
+      const html = document.documentElement;
+
+      // Carrega tema salvo
+      const saved = localStorage.getItem("theme") || "dark";
+      html.setAttribute("data-theme", saved);
+      toggle.textContent = saved === "dark" ? "🌙" : "☀️";
+
+      toggle.addEventListener("click", () => {
+        const current = html.getAttribute("data-theme");
+        const next = current === "dark" ? "light" : "dark";
+        html.setAttribute("data-theme", next);
+        localStorage.setItem("theme", next);
+        toggle.textContent = next === "dark" ? "🌙" : "☀️";
+      });
+    </script>
+  </body>
+</html>
